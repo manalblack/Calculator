@@ -1,3 +1,4 @@
+// this project is added to github
 const calcBtn = document.querySelector('.calc-btn');
 
 
