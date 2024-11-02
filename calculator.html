@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calc-container">
+        <input type="text" class="input">
+        <div class="calculator">  
+            <button class="calc-btn effect" onclick="calcOperator('1')">1</button>
+            <button class="calc-btn effect" onclick="calcOperator('2')">2</button>
+            <button class="calc-btn effect" onclick="calcOperator('3')">3</button>
+
+            <button class="calc-btn effect operator" onclick="calcOperator('+')">+</button>
+
+            <button class="calc-btn effect" onclick="calcOperator('4')">4</button>
+            <button class="calc-btn effect" onclick="calcOperator('5')">5</button>
+            <button class="calc-btn effect" onclick="calcOperator('6')">6</button>
+
+            <button class="calc-btn effect operator" onclick="calcOperator('-')">-</button>
+
+            <button class="calc-btn effect" onclick="calcOperator('7')">7</button>
+            <button class="calc-btn effect" onclick="calcOperator('8')">8</button>
+            <button class="calc-btn effect" onclick="calcOperator('9')">9</button>
+
+            <button class="calc-btn effect operator" onclick="calcOperator('*')">*</button>
+            <button class="calc-btn effect" onclick="calculate()">=</button>
+            <button class="calc-btn effect" onclick="clearBtn()">C</button>
+            <button class="calc-btn effect operator" onclick="calcOperator('/')">/</button>
+        </div>
+    </div>
+    
+    
+    
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
